@@ -250,7 +250,7 @@ PLATFORMS
 DEPENDENCIES
   airspace-jekyll!
   bundler (~> 2.0.1)
-  github-pages (>= 104)
+  github-pages
   jekyll (~> 3.8.5)
   rake (~> 12.3.1)
 
