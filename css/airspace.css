@@ -6,16 +6,15 @@
  * 
  */
 
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fondamento&display=swap');
 
 /* var text-decoration */
 /*--
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-family: 'Roboto Slab', serif;
 }
@@ -25,7 +24,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -69,7 +67,7 @@ a:active {
 header {
   background: #fff;
   padding: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Fondamento', cursive;  
 }
 header .navbar {
   margin-bottom: 0px;
@@ -87,7 +85,7 @@ header .navbar-default .navbar-nav {
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
-  font-size: 15px;
+  font-size: 17px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
@@ -687,7 +685,6 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #47424C;
   border: none;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 /*--
