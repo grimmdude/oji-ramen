@@ -3,7 +3,11 @@
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="Ramen in the heart of SF Japan Town">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:description" content="Ramen in the heart of SF Japan Town" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://oji-ramen.com" />
+<meta property="og:image" content="https://oji-ramen.com/img/oji-ramen-share.jpg" />
 
 <!-- CSS -->
 {% comment %}
