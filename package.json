@@ -1,0 +1,22 @@
+{
+  "name": "oji-ramen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grimmdude/oji-ramen.git"
+  },
+  "author": "Garrett Grimm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grimmdude/oji-ramen/issues"
+  },
+  "homepage": "https://oji-ramen.com"
+}
